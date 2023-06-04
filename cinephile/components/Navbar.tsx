@@ -45,7 +45,7 @@ const Navbar = () => {
                     <NavbarItem label="Home" />
                     <NavbarItem label="Series" />
                     <NavbarItem label="Films" />
-                    <NavbarItem label="New & Popular" />
+                    <NavbarItem label="New &amp; Popular" />
                     <NavbarItem label="My List" />
                     <NavbarItem label="Browse by languages" />
                 </div>
