@@ -1,6 +1,5 @@
 import { NextPageContext } from "next";
 import { getSession } from "next-auth/react";
-import { Analytics } from '@vercel/analytics/react';
 
 import Navbar from "@/components/Navbar";
 import Billboard from "@/components/Billboard";
@@ -34,7 +33,6 @@ export default function Home() {
 
   return (
     <>
-      <Analytics />
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
